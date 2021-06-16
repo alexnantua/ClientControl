@@ -1,0 +1,18 @@
+create table Clientes
+(
+Cod int identity(1,1),
+Nome varchar(50),
+Telefone1 varchar(15),
+Telefone2 varchar(15),
+Email varchar(50),
+Endereco varchar(MAX),
+NSerie varchar(40),
+Marca varchar(20),
+Modelo varchar(15),
+DataRec date,
+DataEnt date,
+Garantia varchar(10),
+DataGar date,
+Observacoes varchar(MAX),
+Status varchar(20)
+)
